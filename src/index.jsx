@@ -16,7 +16,7 @@ class App extends Component {
 
   handleClick = (e) => {
     this.setState ((prevState) => {
-      isShown: !prevState.isShown,
+      isShown: !prevState.isShown
     })
   };
 
